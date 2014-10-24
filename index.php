@@ -7,8 +7,15 @@
  */
 
 require_once("Abstract/Earth.php");
+require_once("Interface/Audi.php");
 
-$a = new Earth();
+$objEarth = new Earth();
 
-$a->setName('fffffffffffffffffffff');
-echo $a->planetRotation();
+$objEarth->setName('Earth');
+echo $objEarth->planetRotation();
+
+echo '<hr>';
+
+$objAudi = new Audi();
+echo $objAudi->eatFuel() . '<br />';
+echo '<br />' . Car::text;
