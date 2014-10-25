@@ -19,3 +19,4 @@ echo '<hr>';
 $objAudi = new Audi();
 echo $objAudi->eatFuel() . '<br />';
 echo '<br />' . Car::text;
+

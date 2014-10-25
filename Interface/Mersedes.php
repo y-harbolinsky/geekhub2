@@ -19,4 +19,4 @@ class Mersedes implements Car
     {
         return 'I can ride';
     }
-} 
+}

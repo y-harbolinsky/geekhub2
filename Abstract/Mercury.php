@@ -29,4 +29,4 @@ class Mercury extends Planet
     {
         return $this->getName() . ' chemical composition';
     }
-} 
+}

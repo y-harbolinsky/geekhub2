@@ -19,4 +19,4 @@ class Opel implements Car
     {
         return 'I can ride';
     }
-} 
+}
